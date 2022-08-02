@@ -95,4 +95,6 @@ button{
     border-radius: 55px;
     margin-bottom: 25px;
 }
-
+#comment{
+    color: maroon;
+}
