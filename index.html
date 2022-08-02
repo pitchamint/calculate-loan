@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY HOME</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div id="box">
+        <h1>คำนวณวงเงินกู้บ้าน</h1>
+        <div class="content">
+            <div id="input">
+                <lable for="money">รายได้ต่อเดือน (รวมกับผู้กู้ร่วม (ถ้ามี))</lable>
+                <input type="number" id="money"/>
+            </div>
+            <div id="input">
+                <lable for="neesin">ภาระหนี้สินต่อเดือน (ถ้ามี)</lable>
+                <input type="number" id="neesin"/>
+            </div>
+            <button id="calculate">คำนวณ</button>
+        </div>
+        <div id="canbe">
+            <h1>ท่านสามารถกู้ได้</h1>
+            <div id="result">0.00</div>
+        </div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
